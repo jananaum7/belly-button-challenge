@@ -44,7 +44,6 @@ git add .
 ```bash
 git commit -m "Add starter code for belly button biodiversity dashboard"
 ```
-   - Push changes to GitHub
 ```bash
 git push origin main
 ```
