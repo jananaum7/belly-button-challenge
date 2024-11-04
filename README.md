@@ -1,13 +1,13 @@
 # Belly Button Challenge
 
-##Table of Contents
-- [Introduction]
-- [Features]
-- [Before You Begin]
-- [Usage]
-- [Code Details]
-- [Contributers]
-- [Reference]
+## Table of Contents
+- [Introduction](#Introduction)
+- [Features](#Features)
+- [Before You Begin](#Before-you-begin)
+- [Usage](#Usage)
+- [Code Details](#Code-details)
+- [Contributors](#Contributors)
+- [Reference](#Reference)
 
 ## Introduction
 The Belly Button Biodiversity Dashboard is an interactive web application that allows users to explore the biodiversity of bacteria found in human belly buttons. This project visualizes sample data on various bacterial species, helping users gain insights into microbiomes by viewing charts and metadata based on individual test subjects.
