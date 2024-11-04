@@ -63,7 +63,7 @@ git push origin main
        -> The Bubble Chart displays bacterial cultures for that sample, with bubble size indicating quantity.
 
 ## Code Details
-# app.js Functions
+- app.js Functions
   - buildMetadata(sample): Fetches demographic data for the selected sample and displays it in the metadata panel. The panel is updated each time a new sample is selected.
   - buildCharts(sample): Fetches sample data, then creates two charts:
     -> A Bubble Chart showing all bacterial cultures for the sample.
