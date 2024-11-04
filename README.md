@@ -25,8 +25,8 @@ This dashboard features:
 
 ## Before You Begin 
 1. Create a New GitHub Repository:
-   -> Name the new repository belly-button-challenge.
-   -> Ensure it’s a public repository.
+   - Name the new repository belly-button-challenge.
+   - Ensure it’s a public repository.
 2. Clone the Repository to Your Local Machine:
 ```bash
 git clone git@github.com:jananaum7/belly-button-challenge.git
@@ -58,16 +58,16 @@ git push origin main
    - Load the Dashboard: Open index.html in any web browser.
    - Use the dropdown menu to select a test subject by their ID.
    - Explore the Data:
-       -> The Metadata Panel updates to show demographic details of the selected subject.
-       -> The Bar Chart shows the top 10 bacterial cultures found in that sample.
-       -> The Bubble Chart displays bacterial cultures for that sample, with bubble size indicating quantity.
+       - The Metadata Panel updates to show demographic details of the selected subject.
+       - The Bar Chart shows the top 10 bacterial cultures found in that sample.
+       - The Bubble Chart displays bacterial cultures for that sample, with bubble size indicating quantity.
 
 ## Code Details
 - app.js Functions
   - buildMetadata(sample): Fetches demographic data for the selected sample and displays it in the metadata panel. The panel is updated each time a new sample is selected.
   - buildCharts(sample): Fetches sample data, then creates two charts:
-    -> A Bubble Chart showing all bacterial cultures for the sample.
-    -> A Bar Chart showing the top 10 bacterial cultures, with bacteria count on the x-axis.
+    - A Bubble Chart showing all bacterial cultures for the sample.
+    - A Bar Chart showing the top 10 bacterial cultures, with bacteria count on the x-axis.
   - init(): Initializes the dashboard by loading the dropdown with available sample IDs, then loading the first sample's data to populate charts and metadata.
   - optionChanged(newSample): Updates the dashboard based on the new sample ID selected.
 
