@@ -34,8 +34,8 @@ function buildCharts(sample) {
 
     // Get the otu_ids, otu_labels, and sample_values
     let otu_ids = result.otu_ids;
-    let sample_values = result.sample_values;
     let otu_labels = result.otu_labels;
+    let sample_values = result.sample_values;
 
     // Build a Bubble Chart
     let bubbleData = [{
@@ -59,11 +59,10 @@ function buildCharts(sample) {
     // Render the Bubble Chart
     Plotly.newPlot('bubble', bubbleData, bubbleLayout);
 
-
-    // For the Bar Chart, map the otu_ids to a list of strings for your yticks
-    let barData = [{
+    // For the Bar Chart, map the otu_ids to a list of strings for your yticks  let barData = [{
     // Build a Bar Chart
     // Don't forget to slice and reverse the input data appropriately
+    let barData = [{
       x: sample_values.slice(0, 10).reverse(),
       y: otu_ids.slice(0, 10).map(id => `OTU ${id}`).reverse(),
       text: otu_labels.slice(0, 10).reverse(),
@@ -93,13 +92,13 @@ function init() {
     let names = data.names;
 
     // Use d3 to select the dropdown with id of `#selDataset`
-    let selector = d3.select("#selDataset");
+    let dropdown = d3.select("#selDataset");
 
     // Use the list of sample names to populate the select options
     // Hint: Inside a loop, you will need to use d3 to append a new
     // option for each sample name.
     names.forEach((name) => {
-      selector.append("option").text(name).property("value", name);
+      dropdown.append("option").text(name).property("value", name);
     });
 
     // Get the first sample from the list
