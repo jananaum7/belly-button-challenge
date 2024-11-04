@@ -33,8 +33,8 @@ git clone git@github.com:jananaum7/belly-button-challenge.git
 ```
 3. Copy Starter Files:
    - Inside the belly-button-challenge repository on your local machine, copy the contents of the StarterCode folder provided in the Module 14 Challenge into the repository.
-       -> index.html
-       -> samples.json
+       - index.html
+       - samples.json
        - the static folder 
 4. Push changes to GitHub
    - Stage and commit the files:
